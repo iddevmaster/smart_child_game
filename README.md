@@ -13,5 +13,7 @@
 1. Download หรือ pull code นี้ไปยังคอมพิวเตอร์ของคุณ
 2. เปิด Folder ใน terminal
 3. เรียกใช้คำสั่งต่อไปนี้:
-    - `npm install`
-    - `npm run dev`
+    ```
+    npm install
+    npm run dev
+    ```
