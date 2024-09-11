@@ -1,15 +1,37 @@
 .logotext1,
 .logotext2 {
   font-size: 100px;
+  text-shadow: 2px 2px 5px #fff;
 }
+
 .logoicon {
   width: 160px;
   height: 160px;
 }
+@media (max-width: 768px) {
+  .logotext1,
+  .logotext2 {
+    font-size: 60px;
+  }
+
+  .logoicon {
+    width: 100px;
+    height: 100px;
+  }
+
+}
+
 .zoomIn {
   animation-name: zoomIn;
   animation-duration: 1s;
   animation-fill-mode: both;
+}
+
+#projectTitle > p {
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: white;
 }
 
 .slideInLeft {
@@ -38,6 +60,16 @@
   margin: 0px 10px;
   border-radius: 20px;
   transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .menu-btn1,
+  .menu-btn2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 10px;
+    margin: 0px 5px;
+  }
 }
 
 .menu-btn1:hover,
