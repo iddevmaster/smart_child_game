@@ -73,17 +73,17 @@ const Question = ({ fruit, handleNext, totalFruit }) => {
     return ( 
         <>
         <div className='row m-auto'>
-            <div className='col-6 d-flex justify-content-center'>
+            <div className='col-12 col-md-6 d-flex justify-content-center'>
                 <div className='d-flex justify-content-center bg-white rounded-5' style={{ border: `15px solid rgb(0, 200, 0)`, boxShadow: 'inset gray 0px 0px 5px 1px' }}>
                     <img src={fruit.image} alt={fruit.name} width={"80%"} />
                 </div>
             </div>
-            <div className='col-6 d-flex flex-column justify-content-center text-center px-5'>
+            <div className='col-12 col-md-6 d-flex flex-column justify-content-center text-center px-5'>
                 <div className='bg-white px-4 rounded-5 my-3 ' style={{ border: `15px solid rgb(255, 113, 137)`, boxShadow: 'inset gray 0px 0px 5px 1px' }}>
-                    <p className='fw-bold' style={{ fontSize: "120px" }}>{fruit.english.word}</p>
+                    <p className='fw-bold' style={{ fontSize: "80px" }}>{fruit.english.word}</p>
                 </div>
                 <div className='bg-white px-4 rounded-5 my-3 ' style={{ border: `15px solid rgb(0, 235, 235)`, boxShadow: 'inset gray 0px 0px 5px 1px' }}>
-                    <p className='m-0 fw-bold' style={{ fontSize: "120px" }}>{fruit.china.word}</p>
+                    <p className='m-0 fw-bold' style={{ fontSize: "80px" }}>{fruit.china.word}</p>
                     <p style={{ fontSize: "50px" }}>{fruit.china.pinyin}</p>
                 </div>
                 <div className="d-flex gap-2 me-2">
