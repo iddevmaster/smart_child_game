@@ -10,7 +10,7 @@ const Home = () => {
                         <div className="text-center d-flex justify-content-center bounceIn1 fs-5 fw-bold" style={{ textShadow: '2px 2px 5px #fff' }}>
                             <p>โครงการสื่ออัจฉริยะเพิ่มทักษะพัฒนาเด็กเล็ก</p>
                         </div>
-                        <div className="d-flex mx-5">
+                        <div className="d-flex justify-content-center mx-5">
                             <p id="find" className="text-primary logotext1 slideInRight">Find</p>
                             <img src="/img/aa.png" alt="" className="mx-2 logoicon zoomIn" />
                             <p id="fruit" className="text-danger logotext2 slideInLeft">Fruit</p>
